@@ -107,15 +107,18 @@ This is my very first library I created at php[world]. I learned that I have to 
 
 	composer install
 
-12. create a Changelog file ( this format is recommended: [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) )
+12. Add composer.lock to .gitignore
+
+	echo "composer.lock" >> .gitignore
+
+13. create a Changelog file ( this format is recommended: [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) )
 
 	vim CHANGELOG.md
 
-13. commit to git
+14. commit to git
 
-	git add CHANGELOG.md
+	git add .
 	git commit -m "Changelog file added"
-	git tag -a v0.1.2 -m "version 0.1.2"
 	git tag -a v0.1.2 -m "version 0.1.2"
 	git push -u origin master
 	git push origin v0.1.2
