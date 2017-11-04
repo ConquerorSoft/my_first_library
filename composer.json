@@ -1,0 +1,17 @@
+{
+    "name": "conquerorsoft/my_first_library",
+    "description": "This is my very first library created with composer init",
+    "type": "library",
+    "require-dev": {
+        "phpunit/phpunit": "^6.4"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Christian Varela",
+            "email": "cvarela@conquerorsoft.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {}
+}
