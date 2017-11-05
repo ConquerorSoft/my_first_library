@@ -7,6 +7,16 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased] ##
 
+## [0.1.3] - 2017-11-04 ##
+### Added ###
+- phpunit.xml file
+- codesniffer was required
+
+### Changed ###
+- README.md fixes to code portions since they didn't look good with ordered list, more steps added.
+- CHANGELOG.md fix to date for version 0.1.0, details for version 0.1.3
+- composer.json keywords, and other details added
+
 ## [0.1.2] - 2017-11-04 ##
 ### Added ###
 - CHANGELOG.md file created
@@ -24,6 +34,6 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 ### Changed ###
 - README.md file has more steps
 
-## [0.1.0] - 2017-11-04 ##
+## [0.1.0] - 2017-11-03 ##
 ### Added ###
 - README.md file created
