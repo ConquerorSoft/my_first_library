@@ -7,6 +7,18 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased] ##
 
+## [0.1.4] - 2017-11-05 ##
+### Added ###
+- LICENSE file added
+- FirstClassTest.php added
+- FirstClass.php added
+- encodeString method added
+- decodeString method added
+
+### Changed ###
+- README.md fixes steps and removal of ordered list to display the code segments good.
+- netbeans project folder to .gitignore file
+
 ## [0.1.3] - 2017-11-04 ##
 ### Added ###
 - phpunit.xml file
