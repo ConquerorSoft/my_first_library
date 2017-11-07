@@ -7,7 +7,13 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased] ##
 
-## [0.1.6] - 2017-11-07 ##
+## [0.1.7] - 2017-11-06 ##
+### Changed ###
+- README.md with version 5.7 for phpunit to support php 5.6 just in case
+- composer.json version for phpunit changed to ^5.7
+- Changelog date fixed for version 0.1.6
+
+## [0.1.6] - 2017-11-06 ##
 ### Added ###
 - Travis CI support
 - .travis.yml file

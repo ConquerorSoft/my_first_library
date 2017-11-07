@@ -70,8 +70,8 @@ This is my very first library I created at php[world]. I learned that I have to 
       [14] gecko-packages/gecko-php-unit
 
     Enter package # to add, or the complete package name if it is not listed: 0
-    Enter the version constraint to require (or leave blank to use the latest version):
-    Using version ^6.4 for phpunit/phpunit
+    Enter the version constraint to require (or leave blank to use the latest version): ^5.7
+    Using version ^5.7 for phpunit/phpunit
     Search for a package:
 
     {
@@ -79,7 +79,7 @@ This is my very first library I created at php[world]. I learned that I have to 
         "description": "This is my very first library created with composer init",
         "type": "library",
         "require-dev": {
-            "phpunit/phpunit": "^6.4"
+            "phpunit/phpunit": "^5.7"
         },
         "license": "MIT",
         "authors": [
@@ -142,7 +142,7 @@ This is my very first library I created at php[world]. I learned that I have to 
         "homepage": "http://www.conquerorsoft.com/my_first_library",
         "type": "library",
         "require-dev": {
-            "phpunit/phpunit": "^6.4",
+            "phpunit/phpunit": "^5.7",
             "squizlabs/php_codesniffer": "3.*"
         },
         "license": "MIT",
@@ -244,3 +244,15 @@ This is my very first library I created at php[world]. I learned that I have to 
     git tag -a v0.1.6 -m "version 0.1.6"
     git push -u origin master
     git push origin v0.1.6
+
+29- change composer.json to change phpunit to version ^5.7
+
+    vim composer.json
+
+30- commit to git
+
+    git add .
+    git commit -m "Phpunit version changed to support php version 5.6"
+    git tag -a v0.1.7 -m "version 0.1.7"
+    git push -u origin master
+    git push origin v0.1.7
