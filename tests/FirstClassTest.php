@@ -1,7 +1,7 @@
 <?php
 /**
  * File containing FirstClassTest
- * 
+ *
  * @package conquerorsoft/my_first_library
  * @author Christian Varela <cvarela@conquerorsoft.com>
  * @copyright (c) 2017, Conqueror Soft Inc (http://www.conquerorsoft.com)
@@ -11,7 +11,7 @@ namespace conquerorsoft\my_first_library;
 
 /**
  * This class have all the unit tests for FirstClass class
- * 
+ *
  * @author Christian Varela <cvarela@conquerorsoft.com>
  */
 class FirstClassTest extends \PHPUnit\Framework\TestCase

@@ -7,6 +7,16 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased] ##
 
+## [0.1.6] - 2017-11-07 ##
+### Added ###
+- Travis CI support
+- .travis.yml file
+
+### Changed ###
+- PSR-2 for docblocks in FirstClass.php and FirstClassTest.php
+- README.md, more steps
+- README.md, change of repository to be on github for conquerorsoft instead.
+
 ## [0.1.5] - 2017-11-06 ##
 ### Changed ###
 - docblocks added to FirstClass.php and FirstClassTest.php

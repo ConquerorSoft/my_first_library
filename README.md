@@ -28,7 +28,7 @@ This is my very first library I created at php[world]. I learned that I have to 
 6- Create a repository in github or bitbucket
 7- Connect your repository with github (or bitbucket)
 
-    git remote add origin git@bitbucket.org:gabriel0702/my_first_library.git
+    git remote add origin https://github.com/ConquerorSoft/my_first_library.git
     git push -u origin master
     git push origin v0.1.0
 
@@ -232,3 +232,15 @@ This is my very first library I created at php[world]. I learned that I have to 
     git tag -a v0.1.5 -m "version 0.1.5"
     git push -u origin master
     git push origin v0.1.5
+
+27- add repository to Travis and create travis configuration file
+    
+    vim .travis.yml
+
+28- commit to git
+
+    git add .
+    git commit -m "Travis CI integration"
+    git tag -a v0.1.6 -m "version 0.1.6"
+    git push -u origin master
+    git push origin v0.1.6

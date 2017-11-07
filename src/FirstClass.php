@@ -1,7 +1,7 @@
 <?php
 /**
  * File containing FirstClass
- * 
+ *
  * @package conquerorsoft/my_first_library
  * @author Christian Varela <cvarela@conquerorsoft.com>
  * @copyright (c) 2017, Conqueror Soft Inc (http://www.conquerorsoft.com)
@@ -12,14 +12,14 @@ namespace conquerorsoft\my_first_library;
 /**
  * This class provides functionality for encoding and decoding alphanumerical strings including spaces
  * Other characters will throw an exception
- * 
+ *
  * @author Christian Varela <cvarela@conquerorsoft.com>
  */
 class FirstClass
 {
     /**
      * Encodes a string by a simple shift of characters
-     * 
+     *
      * @param type $string
      * @return string
      * @throws \Exception
@@ -41,7 +41,7 @@ class FirstClass
 
     /**
      * Decodes a string by a simple shift of characters
-     * 
+     *
      * @param type $string
      * @return string
      * @throws \Exception
