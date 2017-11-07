@@ -1,4 +1,5 @@
 # My First Library #
+[![Build Status][ico-travis]][link-travis] [![Software License][ico-license]](LICENSE.md)
 
 This is my very first library I created at php[world]. I learned that I have to create a README file to provide a description of my library so it can be used by other projects or persons.
 
@@ -256,3 +257,21 @@ This is my very first library I created at php[world]. I learned that I have to 
     git tag -a v0.1.7 -m "version 0.1.7"
     git push -u origin master
     git push origin v0.1.7
+
+31- Get travis badge and put it in README file
+
+    vim README.md
+
+32- Put license badge in README file
+33- commit to git
+
+    git add .
+    git commit -m "Travis CI and License badges in README"
+    git tag -a v0.1.8 -m "version 0.1.8"
+    git push -u origin master
+    git push origin v0.1.8
+
+[ico-license]: https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat
+[ico-travis]: https://travis-ci.org/ConquerorSoft/my_first_library.svg?branch=master
+
+[link-travis]: https://travis-ci.org/ConquerorSoft/my_first_library

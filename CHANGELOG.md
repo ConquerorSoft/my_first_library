@@ -7,6 +7,11 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased] ##
 
+## [0.1.8] - 2017-11-07 ##
+### Changed ###
+- README.md now has Travis CI badge
+- README.md now has license badge
+
 ## [0.1.7] - 2017-11-06 ##
 ### Changed ###
 - README.md with version 5.7 for phpunit to support php 5.6 just in case
