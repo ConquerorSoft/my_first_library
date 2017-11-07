@@ -214,3 +214,21 @@ This is my very first library I created at php[world]. I learned that I have to 
     git tag -a v0.1.4 -m "version 0.1.4"
     git push -u origin master
     git push origin v0.1.4
+
+25- docblock everything including classes, files and functions
+
+    /**
+     * This is a summary example
+     *
+     * This is a description
+     *
+     * @example this is tag
+     */
+
+26- commit to git
+
+    git add .
+    git commit -m "Docblocks added everywhere"
+    git tag -a v0.1.5 -m "version 0.1.5"
+    git push -u origin master
+    git push origin v0.1.5
