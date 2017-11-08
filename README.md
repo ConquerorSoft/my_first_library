@@ -288,6 +288,28 @@ This is my very first library I created at php[world]. I learned that I have to 
     git push -u origin master
     git push origin v0.1.9
 
+38- Remove type hinting that is not compatible with php 5.6
+
+    vim FirstClass.php
+
+39- commit to git
+
+    git add .
+    git commit -m "Fixes to uncompatible type hinting"
+    git tag -a v0.1.10 -m "version 0.1.10"
+    git push -u origin master
+    git push origin v0.1.10
+
+40- apply patch from scrutinizer
+41- commit to git
+
+    git add .
+    git commit -m "Spacing patch from scrutinizer applied"
+    git tag -a v0.1.11 -m "version 0.1.11"
+    git push -u origin master
+    git push origin v0.1.11
+
+
 
 
 [ico-license]: https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat

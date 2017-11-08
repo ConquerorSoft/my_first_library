@@ -26,7 +26,7 @@ class FirstClass
      */
     public function encodeString($string)
     {
-        $string= strtolower($string);
+        $string=strtolower($string);
         $src="abcdefghijklmnopqrstuvwxyz0123456789 ";
         $dst="jklmnopqrstuvwxyz0123456789abcdefghi ";
         for ($i=0; $i<strlen($string); $i++) {
@@ -48,7 +48,7 @@ class FirstClass
      */
     public function decodeString($string)
     {
-        $string= strtolower($string);
+        $string=strtolower($string);
         $src="jklmnopqrstuvwxyz0123456789abcdefghi ";
         $dst="abcdefghijklmnopqrstuvwxyz0123456789 ";
         for ($i=0; $i<strlen($string); $i++) {

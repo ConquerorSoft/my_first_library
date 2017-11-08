@@ -7,6 +7,11 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased] ##
 
+## [0.1.11] - 2017-11-07 ##
+### Changed ###
+- FirstClass.php, patch from scrutinizer applied for spacing
+- README.md more steps added
+
 ## [0.1.10] - 2017-11-07 ##
 ### Changed ###
 - type hinting removed from FirstClass.php
