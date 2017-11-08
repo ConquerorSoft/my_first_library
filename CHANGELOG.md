@@ -7,6 +7,16 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased] ##
 
+## [0.1.9] - 2017-11-07 ##
+### Added ###
+- Scrutinizer CI support
+- .scrutinizer.yml file
+
+### Changed ###
+- FirstClass.php fixed types for functions
+- README.md has scrutinizer badges
+- README.md more steps
+
 ## [0.1.8] - 2017-11-07 ##
 ### Changed ###
 - README.md now has Travis CI badge

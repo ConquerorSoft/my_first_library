@@ -20,11 +20,11 @@ class FirstClass
     /**
      * Encodes a string by a simple shift of characters
      *
-     * @param type $string
+     * @param string $string
      * @return string
      * @throws \Exception
      */
-    public function encodeString($string)
+    public function encodeString(string $string)
     {
         $string= strtolower($string);
         $src="abcdefghijklmnopqrstuvwxyz0123456789 ";
@@ -42,11 +42,11 @@ class FirstClass
     /**
      * Decodes a string by a simple shift of characters
      *
-     * @param type $string
+     * @param string $string
      * @return string
      * @throws \Exception
      */
-    public function decodeString($string)
+    public function decodeString(string $string)
     {
         $string= strtolower($string);
         $src="jklmnopqrstuvwxyz0123456789abcdefghi ";

@@ -1,5 +1,5 @@
 # My First Library #
-[![Build Status][ico-travis]][link-travis] [![Software License][ico-license]](LICENSE.md)
+[![Build Status][ico-travis]][link-travis] [![Software License][ico-license]](LICENSE.md) [![Coverage Status][ico-scrutinizer]][link-scrutinizer] [![Quality Score][ico-code-quality]][link-code-quality]
 
 This is my very first library I created at php[world]. I learned that I have to create a README file to provide a description of my library so it can be used by other projects or persons.
 
@@ -271,7 +271,30 @@ This is my very first library I created at php[world]. I learned that I have to 
     git push -u origin master
     git push origin v0.1.8
 
+34- Create scrutinizer-ci account and link with github
+35- Create .scrutinizer.yml file
+
+    vim .scrutinizer.yml
+
+36- Get scrutinizer badges in README file
+
+    vim README.md
+
+37- commit to git
+
+    git add .
+    git commit -m "Scrutinizer CI and badges in README"
+    git tag -a v0.1.9 -m "version 0.1.9"
+    git push -u origin master
+    git push origin v0.1.9
+
+
+
 [ico-license]: https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat
 [ico-travis]: https://travis-ci.org/ConquerorSoft/my_first_library.svg?branch=master
+[ico-scrutinizer]: https://img.shields.io/scrutinizer/coverage/g/conquerorsoft/my_first_library.svg?style=flat
+[ico-code-quality]: https://img.shields.io/scrutinizer/g/conquerorsoft/my_first_library.svg?style=flat
 
 [link-travis]: https://travis-ci.org/ConquerorSoft/my_first_library
+[link-scrutinizer]: https://scrutinizer-ci.com/g/conquerorsoft/my_first_library/code-structure
+[link-code-quality]: https://scrutinizer-ci.com/g/conquerorsoft/my_first_library
