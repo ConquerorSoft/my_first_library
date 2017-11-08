@@ -24,7 +24,7 @@ class FirstClass
      * @return string
      * @throws \Exception
      */
-    public function encodeString(string $string)
+    public function encodeString($string)
     {
         $string= strtolower($string);
         $src="abcdefghijklmnopqrstuvwxyz0123456789 ";
@@ -46,7 +46,7 @@ class FirstClass
      * @return string
      * @throws \Exception
      */
-    public function decodeString(string $string)
+    public function decodeString($string)
     {
         $string= strtolower($string);
         $src="jklmnopqrstuvwxyz0123456789abcdefghi ";
