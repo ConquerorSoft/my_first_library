@@ -7,6 +7,14 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased] ##
 
+## [0.1.12] - 2017-11-08 ##
+### Added ###
+- CONTRIBUTING.md file
+- CODE_OF_CONDUCT.md file
+
+### Changed ###
+- README, more steps added
+
 ## [0.1.11] - 2017-11-07 ##
 ### Changed ###
 - FirstClass.php, patch from scrutinizer applied for spacing

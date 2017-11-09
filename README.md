@@ -309,8 +309,65 @@ This is my very first library I created at php[world]. I learned that I have to 
     git push -u origin master
     git push origin v0.1.11
 
+42- Create Contributing files
 
+    vim CONTRIBUTING.md
+    vim CODE_OF_CONDUCT.md
 
+43- Add more sections to README file
+
+- Install
+- Usage
+- Change log
+- Testing
+- Contributing
+- Security
+- Credits
+- License
+
+44- commit to git
+
+    git add .
+    git commit -m "Improvements to README"
+    git tag -a v0.1.12 -m "version 0.1.12"
+    git push -u origin master
+    git push origin v0.1.12
+
+## Install ##
+
+With composer
+
+    composer require conquerorsoft/my_first_library
+
+## Usage ##
+
+    $my_first_library = new conquerorsoft\my_first_library();
+    $encoded_string = $my_first_library->encodeString("Encoding this string");
+    $decode_string = $my_first_library->decodeString("");
+
+## Change Log ##
+
+Please see [CHANGELOG](CHANGELOG.md) for more information on what has changed recently.
+
+## Testing ##
+
+    composer test
+
+## Contributing ##
+
+Please see [CONTRIBUTING](CONTRIBUTING.md) and [CODE_OF_CONDUCT](CODE_OF_CONDUCT.md) for details.
+
+## Security ##
+
+If you discover any security related issues, please email cvarela@conquerorsoft.com instead of using the issue tracker.
+
+## Credits ##
+
+- [Christian Varela][link-author]
+
+## License ##
+
+The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
 
 [ico-license]: https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat
 [ico-travis]: https://travis-ci.org/ConquerorSoft/my_first_library.svg?branch=master
@@ -320,3 +377,4 @@ This is my very first library I created at php[world]. I learned that I have to 
 [link-travis]: https://travis-ci.org/ConquerorSoft/my_first_library
 [link-scrutinizer]: https://scrutinizer-ci.com/g/conquerorsoft/my_first_library/code-structure
 [link-code-quality]: https://scrutinizer-ci.com/g/conquerorsoft/my_first_library
+[link-author]: https://github.com/gabrielconqueror
