@@ -7,6 +7,13 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased] ##
 
+## [0.1.13] - 2017-11-10 ##
+### Added ###
+- .gitattributes file added
+
+### Changed ###
+- README, more steps added and fixes
+
 ## [0.1.12] - 2017-11-08 ##
 ### Added ###
 - CONTRIBUTING.md file

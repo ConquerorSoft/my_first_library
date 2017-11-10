@@ -333,6 +333,18 @@ This is my very first library I created at php[world]. I learned that I have to 
     git push -u origin master
     git push origin v0.1.12
 
+45- Add .gitattributes file to ignore some files or folders when --prefer-dist is used
+
+    vim .gitattributes
+
+46- commit to git
+
+    git add .
+    git commit -m ".gitattributes file created"
+    git tag -a v0.1.13 -m "version 0.1.13"
+    git push -u origin master
+    git push origin v0.1.13
+
 ## Install ##
 
 With composer
@@ -341,9 +353,9 @@ With composer
 
 ## Usage ##
 
-    $my_first_library = new conquerorsoft\my_first_library();
+    $my_first_library = new conquerorsoft\my_first_library\FirstClass();
     $encoded_string = $my_first_library->encodeString("Encoding this string");
-    $decode_string = $my_first_library->decodeString("");
+    $decode_string = $my_first_library->decodeString("03wwrwp o0xv v7 or012 y0xsnl2");
 
 ## Change Log ##
 
