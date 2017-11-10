@@ -365,6 +365,23 @@ This is my very first library I created at php[world]. I learned that I have to 
     git push -u origin master
     git push origin v0.1.14
 
+51- Create a gh-pages branch
+
+    git checkout -b gh-pages
+    git push -u origin gh-pages
+    git checkout master
+
+52- Go to github settings for your repository
+53- Choose a theme in GitHub Pages section
+54- Your library page is ready now: https://conquerorsoft.github.io/my_first_library/
+55- commit to git and increase version
+
+    git add .
+    git commit -m "Documentation instructions for the library"
+    git tag -a v1.0.0 -m "version 1.0.0"
+    git push -u origin master
+    git push origin v1.0.0
+
 ## Install ##
 
 With composer
