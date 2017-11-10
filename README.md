@@ -1,5 +1,5 @@
 # My First Library #
-[![Build Status][ico-travis]][link-travis] [![Software License][ico-license]](LICENSE.md) [![Coverage Status][ico-scrutinizer]][link-scrutinizer] [![Quality Score][ico-code-quality]][link-code-quality]
+[![Build Status][ico-travis]][link-travis] [![Software License][ico-license]](LICENSE.md) [![Coverage Status][ico-scrutinizer]][link-scrutinizer] [![Quality Score][ico-code-quality]][link-code-quality] [![Latest Version on Packagist][ico-version]][link-packagist]
 
 This is my very first library I created at php[world]. I learned that I have to create a README file to provide a description of my library so it can be used by other projects or persons.
 
@@ -345,6 +345,26 @@ This is my very first library I created at php[world]. I learned that I have to 
     git push -u origin master
     git push origin v0.1.13
 
+47- create an account in packagist.org and submit your library using your github repository
+48- Make your package in packagist to be autoupdated on push
+- Go to your GitHub repository
+- Click the "Settings" button
+- Click "Integrations & services"
+- Add a "Packagist" service, and configure it with your API token, plus your Packagist username
+- Check the "Active" box and submit the form
+
+49- Add last version in packagist badge to README.md file
+
+    vim README.md
+
+50- commit to git
+
+    git add .
+    git commit -m "Instructions to use packagist.org in README"
+    git tag -a v0.1.14 -m "version 0.1.14"
+    git push -u origin master
+    git push origin v0.1.14
+
 ## Install ##
 
 With composer
@@ -385,8 +405,10 @@ The MIT License (MIT). Please see [License File](LICENSE.md) for more informatio
 [ico-travis]: https://travis-ci.org/ConquerorSoft/my_first_library.svg?branch=master
 [ico-scrutinizer]: https://img.shields.io/scrutinizer/coverage/g/conquerorsoft/my_first_library.svg?style=flat
 [ico-code-quality]: https://img.shields.io/scrutinizer/g/conquerorsoft/my_first_library.svg?style=flat
+[ico-version]: https://img.shields.io/packagist/v/conquerorsoft/my_first_library.svg?style=flat
 
 [link-travis]: https://travis-ci.org/ConquerorSoft/my_first_library
 [link-scrutinizer]: https://scrutinizer-ci.com/g/conquerorsoft/my_first_library/code-structure
 [link-code-quality]: https://scrutinizer-ci.com/g/conquerorsoft/my_first_library
 [link-author]: https://github.com/gabrielconqueror
+[link-packagist]: https://packagist.org/packages/conquerorsoft/my_first_library
